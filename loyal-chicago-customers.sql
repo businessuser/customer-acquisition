@@ -5,4 +5,7 @@
   Output will be used as input for person matching.
 */
 
--- TODO: Write query satisfying above requirements.
+SELECT *
+FROM business_data.customers
+WHERE city = 'Chicago'
+AND last_interaction BETWEEN '2017-06-14' AND '2017-12-14'; 
