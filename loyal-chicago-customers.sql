@@ -8,4 +8,5 @@
 SELECT *
 FROM business_data.customers
 WHERE city = 'Chicago'
+AND preferred_store = 'Loop'
 AND last_interaction BETWEEN CURRENT_DATE - INTERVAL '6 months' AND CURRENT_DATE;
