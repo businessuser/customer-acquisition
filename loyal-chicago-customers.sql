@@ -9,4 +9,4 @@ SELECT *
 FROM business_data.customers
 WHERE city = 'Chicago'
 AND preferred_store IN ('Loop', 'River North', 'Wicker Park')
-AND last_interaction BETWEEN '2017-06-14' AND '2017-12-14'; 
+AND last_interaction BETWEEN '2018-06-14' AND '2018-12-14'; 
